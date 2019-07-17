@@ -13,4 +13,4 @@
 
 
 
-Route::get('admin/sistema/permiso', 'PermisoController@index')->name('permiso');
+Route::get('/', 'InicioController@index');
